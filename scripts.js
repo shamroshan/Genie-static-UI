@@ -50,7 +50,7 @@ async function sendMessage() {
     chatMessages.scrollTop = chatMessages.scrollHeight;
  
     try {
-        const response = await fetch("https://genie-gd-api-evd2f6h7fhd3c8ff.eastus-01.azurewebsites.net/chat", {
+        const response = await fetch("https://vegascg-genie-backend.azurewebsites.net/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
